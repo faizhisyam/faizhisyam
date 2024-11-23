@@ -1,0 +1,59 @@
+* {
+    margin: auto;
+    padding: auto;
+  }
+  
+  body {
+    background-image: url(paris.jpg);
+    background-position: 0px 0px;
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+  }
+  
+  #header {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(88, 10, 10); /* bebas warna */
+  }
+  
+  #areapost {
+    width: 800px;
+    height: 500px;
+    background-color: red; /* bebas warna */
+  }
+  #tulisan {
+    color:white;
+    margin-left: 30px;
+  }
+  #footer {
+    width: 800px;
+    height: 200px;
+    background-color: #261c1c; /* bebas warna */
+  }
+  
+  .judulweb {
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-family: "Playwrite DE Grund", serif;
+    display: inline-flex;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    display: inline-flex;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+  
+  #gambarutama {
+    width: 200px;
+    height: 295px;
+    float: right;
+    position: relative;
+    top: 0;
+    right: 0;
+    border: 10px solid white;
+    margin: 10px 10px 10px 10px;
+  }
